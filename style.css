@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+}
+
+main {
+	width: 100%;
+	max-width: 1024px;
+	min-height: 700px;
+	margin: 0 auto;
+
+	font: 16px "Arial", sans-serif;
+
+	background-color: #2eb394;
+}
+
+h1 {
+	padding: 40px;
+
+	font-size: 30px;
+	text-align: center;
+}
+
+.all-blocks {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.flexible-img {
+	width: 100%;
+}
+
+.logo {
+	width: 20%;
+	background-color: #2eb394;
+	display: inline-block;
+	vertical-align: top;
+}	
+
+.description {
+	display: inline-block;
+	width: 79%;
+	max-height: 500px;
+
+	background-color: #2eb394;
+}
+
+@media screen and (max-width: 750px) {
+.logo, 
+.description {
+	display: inline;
+}
+}
